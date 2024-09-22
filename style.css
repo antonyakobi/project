@@ -203,3 +203,25 @@ textarea {
 form .button {
     width: 100%;
 }
+
+select {
+    background: url(./assents/images/Arrow-down.svg) no-repeat right 15px top 50%;
+    appearance: none;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    background: url(./assents/images/Calendar.svg) no-repeat;
+}
+
+.footer {
+    background-color: #0a61f7;
+    text-align: center;
+    padding: 20px 0;
+}
+
+small {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.57143;
+    color: #fff;
+}
