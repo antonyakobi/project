@@ -27,6 +27,16 @@ button {
     padding: 14px 0;
 }
 
+.container {
+    height: 100%;
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid red;
+}
+
 .menu-link {
     font-weight: 500;
     font-size: 12px;
