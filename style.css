@@ -71,7 +71,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 800px;
+    min-height: 800px;
 }
 
 .main-img {
@@ -246,7 +246,8 @@ input[type="text"] {
 }
 
 input[type="email"], input[type="password"], input[type="date"], select {
-    width: 230px;
+    width: 240px;
+    /* Должно быть 230, но с 240 показывается красиво и ровно.  */
     height: 50px;
     flex-grow: 1;
 }
@@ -301,4 +302,19 @@ small {
     font-size: 14px;
     line-height: 1.57143;
     color: #fff;
+}
+
+@media screen and (max-width: 1400px) {
+    .main-wrapper {
+        flex-direction: column;
+    }
+
+    .main-info {
+        align-self: flex-start;
+        margin: 100px 0 80px;
+    }
+
+    .main-img {
+        align-self: center;
+    }
 }
