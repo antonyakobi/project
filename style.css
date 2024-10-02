@@ -80,6 +80,8 @@ button:hover {
 
 .main-img {
     align-self: flex-end;
+    max-width: 656px;
+    width: 100%;
 }
 
 .main-title {
@@ -350,7 +352,17 @@ small {
     .menu {
         display: none;
     }
+
     .menu-icon {
         display: block;
+    }
+
+    .main-info {
+        margin: 60px 0;
+    }
+
+    .main-title {
+        font-size: 52px;
+        line-height: 60px;
     }
 }
