@@ -321,9 +321,23 @@ small {
     .table {
         width: 940px;
     }
+
     .table-wrapper {
         overflow-x: auto;
         width: 100%;
         max-width: 940px;
+    }
+
+    .account-wrapper {
+        flex-direction: column;
+        gap: 70px;
+    }
+
+    .create-account-section .text {
+        max-width: unset;
+    }
+
+    form {
+        align-self: center;
     }
 }
