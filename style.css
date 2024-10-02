@@ -67,6 +67,10 @@ button:hover {
     color: #fff;
 }
 
+.menu-icon {
+    display: none;
+}
+
 .main-wrapper {
     display: flex;
     justify-content: space-between;
@@ -339,5 +343,14 @@ small {
 
     form {
         align-self: center;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .menu {
+        display: none;
+    }
+    .menu-icon {
+        display: block;
     }
 }
